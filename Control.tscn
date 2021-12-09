@@ -1,7 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://ConsoleCommands.gd" type="Script" id=1]
-[ext_resource path="res://addons/quentincaffeino/console/src/Console.tscn" type="PackedScene" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -14,5 +13,3 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
-[node name="Console" parent="." instance=ExtResource( 2 )]
