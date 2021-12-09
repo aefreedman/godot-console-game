@@ -71,9 +71,9 @@ func _ready():
 	self.Text.connect('meta_clicked', self.Line, 'set_text')
 
 	# Hide console by default
-#	self._console_box.hide()
+	self._console_box.hide()
 	self._animation_player.connect("animation_finished", self, "_toggle_animation_finished")
-#	self.toggle_console()
+	self.toggle_console()
 
 	# Console keyboard control
 	set_process_input(true)
